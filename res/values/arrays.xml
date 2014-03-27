@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="arrays_demo">
+        <item>segment1</item>
+        <item>segment2</item>
+        <item>segment3</item>
+        </string-array>
+</resources>

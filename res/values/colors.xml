@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="global_style_white">#FFFFFF</color>
+    <color name="btn_tab_pressed">#FFFFFF</color>
+    <color name="btn_tab_normal">#0587C9</color>
+    <color name="btn_tab_normal_red">#D80000</color>
+</resources>

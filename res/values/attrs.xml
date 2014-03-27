@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义tabhost属性 -->
+    <declare-styleable name="CustomTabHost">
+        <attr name="colorMode">
+            <enum name="blue" value="0"/>
+            <enum name="red" value="1"/>
+        </attr>
+        <attr name="entries" format="reference" />
+        <attr name="selectedIndex" format="integer" min="0" />
+    </declare-styleable>
+</resources>

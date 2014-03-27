@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:bottom="0dp" android:left="-2dp" android:right="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="@color/btn_tab_normal" />
+
+                    <stroke android:width="2dp" android:color="@color/btn_tab_normal" />
+<corners android:bottomLeftRadius="0dip" android:bottomRightRadius="4dip" android:topLeftRadius="0dip" android:topRightRadius="4dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:bottom="0dp" android:left="-2dp" android:right="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="@color/btn_tab_normal" />
+
+                    <stroke android:width="2dp" android:color="@color/btn_tab_normal" />
+<corners android:bottomLeftRadius="0dip" android:bottomRightRadius="4dip" android:topLeftRadius="0dip" android:topRightRadius="4dip" />
+                </shape>
+           </item>
+        </layer-list>        
+    </item>
+    <item>
+        <layer-list>
+            <item android:bottom="0dp" android:left="-2dp" android:right="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="@color/global_style_white" />
+
+                    <stroke android:width="2dp" android:color="@color/btn_tab_normal" />
+
+                    <corners android:bottomLeftRadius="0dip" android:bottomRightRadius="4dip" android:topLeftRadius="0dip" android:topRightRadius="4dip" />
+                </shape> 
+            </item>
+        </layer-list>
+    </item>
+</selector>
